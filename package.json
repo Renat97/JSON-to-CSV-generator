@@ -1,0 +1,28 @@
+{
+  "name": "multistep-checkout",
+  "version": "1.0.0",
+  "description": "Challenge 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renat97/MultiStep-Checkout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renat97/MultiStep-Checkout/issues"
+  },
+  "homepage": "https://github.com/Renat97/MultiStep-Checkout#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "jquery": "^3.5.1",
+    "multer": "^1.4.2",
+    "multiparty": "^4.2.2",
+    "nodemon": "^2.0.6",
+    "util": "^0.12.3"
+  }
+}

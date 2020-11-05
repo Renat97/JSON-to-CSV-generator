@@ -1,0 +1,23 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1> CSV generator</h1>
+<form action="/upload_json" method="POST"
+class="form" enctype="multipart/form-data">
+  <div class="form-example">
+  <label for="name">Submit Json data</label>
+  <input type="file" name="upload" id="say" value="hi" accept=".json"/>
+  <input type="submit" value="upload"/>
+  <textarea id="formInput"
+  name="formInput" rows="4" cols="50" value="Submit">
+  </textarea>
+  </div>
+</form>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js"></script>
+
+</html>
